@@ -1,0 +1,7 @@
+[build]
+  base = "crypto-dashboard-jan-main" 
+  command = "npm run build"
+  publish = "crypto-dashboard-jan-main/build"
+
+[build.environment]
+  NODE_VERSION = "20.10.0"
