@@ -27,10 +27,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "dev": "react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -50,5 +47,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "http://<your-github-username>.github.io/<your-repo-name>"
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
 }
